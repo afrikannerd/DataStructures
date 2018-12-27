@@ -16,7 +16,7 @@ public class CircularBuffer<E> {
 	 * 
 	 * @param size the array size
 	 */
-	public Circular(int size) {
+	public CircularBuffer(int size) {
 		this.queueSize = size;
 		Queue = (E[]) new Object[this.queueSize];
 	}
